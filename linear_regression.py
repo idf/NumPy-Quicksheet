@@ -9,3 +9,7 @@ class Predictor(object):
         vec_b = np.dot(mat_X, vec_Y.T)
         vec_a = np.dot(np.linalg.inv(mat_A), vec_b)
         return vec_a
+    
+    def predict(vec_a, mat_X):
+        vec_Y_predicted = np.dot(vec_a.T, mat_X)
+        return vec_Y_predicted
