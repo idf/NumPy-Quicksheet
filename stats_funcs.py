@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.stats import logistic, multivariate_normal
-
+# scipy builtin stats functions preferred to avoid underflow.  
 
 def sigmoid(X):
     return logistic.cdf(X)
