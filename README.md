@@ -1,7 +1,9 @@
 # NumPy-Quicksheet
 Quicksheet for NumPy
 
-Quicksheet in Wiki: https://github.com/idf/NumPy-Quicksheet/wiki
+Quicksheet is written in ipython notebook.
 
-# Related:
+Quicksheet in Wiki: https://github.com/idf/NumPy-Quicksheet/wiki (to be rewritten in ipynb)
+
+## Related:
 Scipy Utils: https://github.com/idf/scipy_util
